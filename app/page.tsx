@@ -191,7 +191,7 @@ export default function Home() {
                 "🚀 Deployed with Vercel",
               ]}
               tags={["React", "TypeScript", "Next.js", "PostgreSQL", "Vercel"]}
-              image="/eatout.jpg"
+              image="/eatout.svg"
               color="pink"
             />
             <ProjectCard
@@ -205,7 +205,7 @@ export default function Home() {
                 "🔹 Developed critical operational software, introducing endpoint-level rate limiting, automatic documentation generation, and an A/B testing framework, while addressing API partners' needs and driving continuous improvements.",
               ]}
               tags={["TypeScript", "Rust", "Solana", "Blockchain"]}
-              image="/me.png"
+              image="/ME_Full_Gradient.png"
               color="purple"
             />
             <ProjectCard
@@ -234,7 +234,7 @@ export default function Home() {
                 "• Interviewing and assessing candidates 🎯",
               ]}
               tags={["C#", "TypeScript", ".NET 6.0", "Service Fabric"]}
-              image="/microsoft.jpg"
+              image="/microsoft.png"
               color="cyan"
             />
           </div>
