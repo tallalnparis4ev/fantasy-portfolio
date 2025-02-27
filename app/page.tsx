@@ -140,14 +140,14 @@ export default function Home() {
                 a mystical tool to locate diabetic medication worldwide, and Eat
                 Out, a culinary compass for dietary explorers. When I'm not
                 weaving code, you might find me optimizing distributed systems
-                or delving into the arcane arts of AI and ML.
+                or delving into the arcane arts of computer science.
               </p>
               <div className="flex flex-wrap gap-3 mt-8">
                 {[
                   "Innovative Founder",
                   "Full-Stack Wizard",
-                  "Blockchain Sage",
                   "Performance Optimizer",
+                  "Team Player",
                 ].map((trait) => (
                   <span
                     key={trait}
@@ -237,6 +237,32 @@ export default function Home() {
               image="/microsoft.png"
               color="cyan"
             />
+            <ProjectCard
+              title="Cisco"
+              description="Developed and maintained a public-facing GraphQL API for various features.
+Implemented a full-stack feature allowing users to set default values and firewall-specific overrides.
+Participated in the full software development lifecycle, including requirement analysis, coding, and testing."
+              longDescription={[
+                "💻 Worked on a public-facing GraphQL API for various features.",
+                "🛠️ Developed a full-stack key feature enabling users to specify default values and per-firewall overrides for network entities.",
+                "📌 Participated in all stages of software development, including requirement analysis, programming, and automated testing. 🚀",
+              ]}
+              tags={["C#", "TypeScript", ".NET 6.0", "Service Fabric"]}
+              image="/cisco.svg"
+              color="green"
+            />
+
+            <ProjectCard
+              title="YouTube"
+              description="Teaching Computer Science"
+              longDescription={[
+                "🚀 Hit 2,000 subs! (absolute legends 💙) in just a few videos teaching about Computer Science interviews within high-frequency trading ⚡📈",
+                "🎥 Check it out 👉 youtube.com/@tallulabellm1",
+              ]}
+              tags={["Computer Science", "YouTube", "High Frequency Trading"]}
+              image="/youtube.png"
+              color="blue"
+            />
           </div>
         </div>
       </section>
@@ -275,7 +301,7 @@ export default function Home() {
                   Backend Wizardry
                 </h3>
                 <div className="flex flex-wrap gap-3">
-                  {["Node.js", "Rust", "PostgreSQL", "MongoDB"].map((skill) => (
+                  {["Node.js", "Java", "PostgreSQL", "MongoDB"].map((skill) => (
                     <span
                       key={skill}
                       className="px-4 py-2 rounded-full text-sm bg-pink-900/30 border border-pink-700/30 text-pink-300"
@@ -294,9 +320,8 @@ export default function Home() {
                   {[
                     "Solana Blockchain",
                     "Software Architecture",
-                    "Distributed Systems",
                     "Performance Optimization",
-                    "AI/ML",
+                    "Teaching",
                   ].map((skill) => (
                     <span
                       key={skill}
