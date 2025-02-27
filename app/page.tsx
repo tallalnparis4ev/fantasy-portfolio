@@ -54,18 +54,16 @@ export default function Home() {
               <span>Tallal Mirza</span>
             </Link>
             <div className="hidden md:flex gap-8">
-              {["About", "Creations", "Skills", "Education", "Contact"].map(
-                (item) => (
-                  <Link
-                    key={item}
-                    href={`#${item.toLowerCase()}`}
-                    className="relative text-gray-300 hover:text-white transition-colors group"
-                  >
-                    {item}
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-pink-500 transition-all duration-300 group-hover:w-full"></span>
-                  </Link>
-                )
-              )}
+              {["Creations", "Skills", "Education", "Contact"].map((item) => (
+                <Link
+                  key={item}
+                  href={`#${item.toLowerCase()}`}
+                  className="relative text-gray-300 hover:text-white transition-colors group"
+                >
+                  {item}
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-pink-500 transition-all duration-300 group-hover:w-full"></span>
+                </Link>
+              ))}
             </div>
             <button className="md:hidden text-white">
               <svg
@@ -114,50 +112,6 @@ export default function Home() {
             >
               Contact Me
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* About Section */}
-      <section id="about" className="py-20 relative">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-pink-500">
-              About the Enchanter
-            </h2>
-            <div className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-2xl border border-gray-700 shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-green-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-              <div className="absolute bottom-0 left-0 w-64 h-64 bg-pink-500/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
-              <p className="text-lg mb-6 relative z-10">
-                Greetings, fellow adventurers! I'm a seasoned Software Engineer
-                with a passion for crafting magical digital experiences. With a
-                background in Computer Science from the University of St
-                Andrews, I've journeyed through the realms of startups, tech
-                giants, and blockchain innovations.
-              </p>
-              <p className="text-lg mb-6 relative z-10">
-                My quest has led me to found two enchanting projects: DiaFinder,
-                a mystical tool to locate diabetic medication worldwide, and Eat
-                Out, a culinary compass for dietary explorers. When I'm not
-                weaving code, you might find me optimizing distributed systems
-                or delving into the arcane arts of computer science.
-              </p>
-              <div className="flex flex-wrap gap-3 mt-8">
-                {[
-                  "Innovative Founder",
-                  "Full-Stack Wizard",
-                  "Performance Optimizer",
-                  "Team Player",
-                ].map((trait) => (
-                  <span
-                    key={trait}
-                    className="px-4 py-2 rounded-full text-sm bg-gray-700/50 border border-gray-600 text-gray-300"
-                  >
-                    {trait}
-                  </span>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </section>
