@@ -336,6 +336,21 @@ export default function Home() {
               </p>
             </div>
           </div>
+
+          <div className="max-w-3xl mx-auto">
+            <div className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-2xl border border-gray-700 shadow-xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-green-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+              <div className="absolute bottom-0 left-0 w-64 h-64 bg-pink-500/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+              <h3 className="text-2xl font-semibold mb-4 text-green-400">
+                The Harrodian School
+              </h3>
+              <p className="text-xl text-pink-400 mb-2">A-Levels</p>
+              <p className="text-gray-300 mb-4">2015 - 2017</p>
+              <p className="text-lg text-gray-300">
+                Maths A*, Physics A*, Biology A*
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -361,7 +376,7 @@ export default function Home() {
                 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-pink-500 flex items-center gap-2"
               >
                 <Sparkles className="h-4 w-4 text-pink-400" />
-                <span>YourName</span>
+                <span>Tallal Mirza</span>
               </Link>
               <p className="text-sm text-gray-400 mt-2">
                 © {new Date().getFullYear()} All rights reserved
@@ -369,7 +384,7 @@ export default function Home() {
             </div>
             <div className="flex gap-6">
               <Link
-                href="https://github.com"
+                href="https://github.com/tallalnparis4ev"
                 target="_blank"
                 className="text-gray-400 hover:text-white transition-colors"
               >
@@ -387,7 +402,7 @@ export default function Home() {
                 </svg>
               </Link>
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/null-pointer/"
                 target="_blank"
                 className="text-gray-400 hover:text-white transition-colors"
               >
@@ -401,7 +416,7 @@ export default function Home() {
                 </svg>
               </Link>
               <Link
-                href="https://twitter.com"
+                href="https://www.youtube.com/@tallulabellm1"
                 target="_blank"
                 className="text-gray-400 hover:text-white transition-colors"
               >
@@ -411,7 +426,7 @@ export default function Home() {
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
-                  <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
                 </svg>
               </Link>
             </div>
