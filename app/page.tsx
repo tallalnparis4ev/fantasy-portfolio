@@ -171,45 +171,71 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             <ProjectCard
               title="DiaFinder"
-              description="A magical tool that helps people find diabetic medication anywhere in the world. Built with React, TypeScript, and Next.js, it's a beacon of hope for those in need of essential medicine."
+              description="Launched DiaFinder: A life-saving tool connecting diabetics to essential medication worldwide. Built the complete platform from scratch using React, TypeScript & Next.js, deployed via Vercel."
+              longDescription={[
+                "💊 DiaFinder helps people find diabetic medication anywhere in the world.",
+                "💻 Developed the entire codebase using React, TypeScript & Next.js",
+                "🚀 Deployed with Vercel",
+              ]}
               tags={["React", "TypeScript", "Next.js", "Vercel"]}
-              image="/placeholder.svg?height=300&width=400"
+              image="/novos.svg?height=300&width=400"
               color="green"
             />
             <ProjectCard
               title="Eat Out"
-              description="A culinary compass that guides food adventurers to restaurants aligning with their dietary needs. Crafted with React, TypeScript, Next.js, and powered by PostgreSQL, it's the perfect spell for finding your next magical meal."
+              description="Built Eat Out, a global restaurant finder for any diet. Developed the entire codebase with React, TypeScript, and Next.js, powered by PostgreSQL, and deployed on Vercel."
+              longDescription={[
+                "🍽 Eat Out helps people find restaurants that align with their diets anywhere in the world.",
+                "💻 Built the entire codebase using React, TypeScript & Next.js",
+                "📊 Database: PostgreSQL",
+                "🚀 Deployed with Vercel",
+              ]}
               tags={["React", "TypeScript", "Next.js", "PostgreSQL", "Vercel"]}
-              image="/placeholder.svg?height=300&width=400"
+              image="/eatout.jpg"
               color="pink"
             />
             <ProjectCard
-              title="Solana NFT Indexer"
-              description="A high-performance system for indexing Solana NFTs, improving transaction success rates by up to 100%. This arcane tool forms the backbone of NFT trading in the Solana ecosystem."
+              title="Magic Eden"
+              description="Developed high-performance systems with TypeScript, Rust, and React. Optimized Solana NFT indexers, achieving 67%-100% higher success rates and 6x-200x speed boosts. Built and led Solana NFT trading infrastructure, handling tens of millions daily with top-tier reliability."
+              longDescription={[
+                "💻 Developed high-performance systems using TypeScript, Rust, and React.",
+                "🔹 Principal developer for Solana NFT indexers – optimized design to minimize latency and prevent race conditions, leading to a 67%-100% increase in transaction success rates and 6x-200x speed improvements across different endpoints.",
+                "🔹 Built the backbone of Solana NFT trading, ensuring high-volume transactions worth tens of millions daily with unmatched reliability and efficiency.",
+                "🔹 Led the development of our public API, significantly improving reliability and user experience.",
+                "🔹 Developed critical operational software, introducing endpoint-level rate limiting, automatic documentation generation, and an A/B testing framework, while addressing API partners' needs and driving continuous improvements.",
+              ]}
               tags={["TypeScript", "Rust", "Solana", "Blockchain"]}
-              image="/placeholder.svg?height=300&width=400"
+              image="/me.png"
               color="purple"
             />
             <ProjectCard
-              title="Multilingual Self-Help Portal"
-              description="A mystical gateway of knowledge, providing self-help information in 6 different languages. This project showcases the power of internationalization and user-centric design."
+              title="bp"
+              description="Built and optimized large-scale systems with TypeScript, GraphQL, and React. Engineered polling, caching, and request chunking to enhance efficiency for a service in 50+ countries, handling millions in transactions monthly while improving accessibility."
+              longDescription={[
+                "💻 Built and optimized large-scale systems using TypeScript, GraphQL, and React.",
+                "🔹 Engineered and implemented advanced optimization solutions from scratch, including polling and caching mechanisms, to overcome limitations in duplex communication. Enhanced system efficiency through request chunking, supporting a service used in 50+ countries and facilitating thousands of weekly transactions worth millions per month.",
+                "🔹 Designed and architected a multilingual self-help webpage with full autonomy, successfully localizing content in 6 languages to improve user accessibility and support.",
+                "🔹 Led and resolved a wide range of bug fixes across the full technology stack, ensuring robust software performance and reliability.",
+              ]}
               tags={["React", "TypeScript", "GraphQL", "i18n"]}
-              image="/placeholder.svg?height=300&width=400"
+              image="/BP_Helios_logo.svg"
               color="blue"
             />
             <ProjectCard
-              title="Enterprise Modernization Spell"
-              description="Wove powerful enchantments to modernize and scale enterprise systems at Microsoft. Migrated monolithic structures to Service Fabric microservices, enhancing scalability and agility."
+              title="Microsoft"
+              description="Modernized and scaled enterprise systems with C# and TypeScript. Migrated a monolith to Service Fabric microservices, enhancing scalability and maintainability. Leveraged .NET 6.0 to optimize performance while handling deployments, monitoring, and candidate assessments."
+              longDescription={[
+                "💻 Worked with C# and TypeScript to modernize and scale enterprise systems.",
+                "🔹 Converted a monolith to Service Fabric microservices, improving scalability and maintainability.",
+                "🔹 Modernized migrated services by leveraging .NET 6.0 features for enhanced performance and efficiency.",
+                "🔹 Additional responsibilities:",
+                "• Debugging and monitoring alarms 📊",
+                "• Deploying and rotating applications 🚀",
+                "• Interviewing and assessing candidates 🎯",
+              ]}
               tags={["C#", "TypeScript", ".NET 6.0", "Service Fabric"]}
-              image="/placeholder.svg?height=300&width=400"
+              image="/microsoft.jpg"
               color="cyan"
-            />
-            <ProjectCard
-              title="Blockchain Trading Artifact"
-              description="Crafted the backbone of Solana NFT trading at Magic Eden, handling high-volume transactions with unparalleled efficiency. Led the development of critical APIs and operational software."
-              tags={["TypeScript", "Rust", "React", "Solana"]}
-              image="/placeholder.svg?height=300&width=400"
-              color="orange"
             />
           </div>
         </div>
