@@ -14,6 +14,7 @@ import {
 interface ProjectCardProps {
   title: string;
   description: string;
+  role?: string;
   longDescription?: string[];
   tags: string[];
   image: string;
@@ -23,6 +24,7 @@ interface ProjectCardProps {
 export function ProjectCard({
   title,
   description,
+  role,
   longDescription,
   tags,
   image,
@@ -99,13 +101,18 @@ export function ProjectCard({
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-60"></div>
         </div>
 
-        <div className="p-6 relative">
+        <div className="p-6 relative flex flex-col h-[calc(100%-12rem)]">
           <h3 className={`text-xl font-bold mb-2 ${colorMap[color].text}`}>
             {title}
           </h3>
+          {role && (
+            <p className={`text-sm mb-2 ${colorMap[color].text}`}>{role}</p>
+          )}
           <p className="text-gray-300 mb-4">{description}</p>
 
-          <div className="flex flex-wrap gap-2 mt-4">
+          <div className="flex-grow"></div>
+
+          <div className="flex flex-wrap gap-2">
             {tags.map((tag) => (
               <span
                 key={tag}
